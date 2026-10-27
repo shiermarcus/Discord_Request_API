@@ -1,3 +1,11 @@
-# Ignore .env file
+# Environment & Virtualenv
 .env
-.venv/
+.venv/
+
+# Python cache & logs
+__pycache__/
+*.py[cod]
+discord.log
+
+# Editor settings
+.vscode/
